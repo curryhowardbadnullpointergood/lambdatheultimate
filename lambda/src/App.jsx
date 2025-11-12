@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./pages/home/Home"
 import Sidebar from "./components/sidebar/Sidebar";
 import About from "./pages/about/About"
+import Projects from "./pages/projects/Projects"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
           </Routes>
         </main>
       </div>

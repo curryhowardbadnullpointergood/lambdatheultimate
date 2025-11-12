@@ -9,10 +9,10 @@ function Sidebar() {
             
             <img src={wizardGif} alt="Wizard with book" />
 
-            <a>Home</a>
-            <a>Projects</a>
-            <a>Blog</a>
-            <a>About</a>
+            <a href="/">Home</a>
+            <a href="/projects">Projects</a>
+            <a >Blog</a>
+            <a href="/about">About</a>
 
         </div>
       </div>

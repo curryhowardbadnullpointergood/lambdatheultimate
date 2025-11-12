@@ -1,11 +1,13 @@
 import "./sidebar.scss"
-
+import wizardGif from '../../assets/wizard.gif'
 
 function Sidebar() {
   return (
       <div class="sidebar">
 
         <div class="container">
+            
+            <img src={wizardGif} alt="Wizard with book" />
 
             <a>Home</a>
             <a>Projects</a>

@@ -1,21 +1,28 @@
 import { useState } from 'react'
 // can use it for global configs
 import './App.css'
+// routing 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from "./pages/home/Home"
 import Sidebar from "./components/sidebar/Sidebar";
-
+import About from "./pages/about/About"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="appLayout">
-      <Sidebar />
-      <main className="pageContent">
-        <Home />
-      </main>
-    </div>
+
+   <BrowserRouter>
+      <div className="appLayout">
+        <Sidebar />
+        <main className="pageContent">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+        </main>
+      </div>
+    </BrowserRouter>
   );
 
 }

@@ -1,0 +1,134 @@
+.blog{
+  flex: 1;
+  display: flex; 
+  flex-direction: column;
+  max-width: 88%;
+
+  h1{
+    
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+
+    font-family: "Linux Libertine", "Georgia", serif; 
+    font-size: 2.5rem; 
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 0.5rem 0;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #a2a9b1; 
+    color: #202122; 
+  
+
+
+  }
+
+  .article {
+    font-family: "Arial", "Helvetica", sans-serif; // body font from that era
+    font-size: 1.2rem; // ~14px classic Wikipedia size
+    line-height: 1.5;
+    color: #202122; // main text color
+    max-width: 900px; // article column width
+    margin: 0 auto; // center article area
+    padding: 1.5rem 2rem;
+    background: #ffffff; // wiki content background
+    
+  
+    // Paragraphs
+    p {
+      margin: 0.5rem 0 1rem;
+    }
+  
+    // Headings
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: #202122;
+      font-weight: bold;
+      font-family: "Linux Libertine", "Georgia", serif; // title + heading serif font
+      line-height: 1.3;
+      margin-top: 1.2rem;
+    }
+  
+    h1 {
+      font-size: 2rem;
+      border-bottom: 1px solid #a2a9b1;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      text-align: center; // classic page title centered
+    }
+  
+    h2 {
+      font-size: 1.4rem;
+      border-bottom: 1px solid #a2a9b1;
+      padding-bottom: 0.2rem;
+    }
+  
+    h3 {
+      font-size: 1.2rem;
+    }
+  
+    h4 {
+      font-size: 1.05rem;
+    }
+  
+    // Links
+    a {
+      color: #0645ad;
+      text-decoration: none;
+  
+      &:visited {
+        color: #0b0080;
+      }
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    // Lists
+    ul,
+    ol {
+      padding-left: 2rem;
+      margin: 0.5rem 0 1rem;
+    }
+  
+    // Inline quoted appearance (blockquotes)
+    blockquote {
+      border-left: 2px solid #a2a9b1;
+      padding-left: 1rem;
+      margin-left: 0;
+      color: #54595d;
+      font-style: italic;
+    }
+  
+    // Images in thumbnail style
+    .thumb {
+      float: right;
+      margin: 0 0 1rem 1rem;
+      border: 1px solid #a2a9b1;
+      background: #f8f9fa;
+      padding: 0.3rem;
+      text-align: center;
+  
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      .caption {
+        font-size: 0.75rem;
+        color: #54595d;
+        margin-top: 0.3rem;
+      }
+    }
+  }
+  
+  
+
+
+}
+
+

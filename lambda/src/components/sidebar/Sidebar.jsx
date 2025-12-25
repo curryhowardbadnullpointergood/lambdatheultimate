@@ -11,7 +11,7 @@ function Sidebar() {
 
             <a href="/">Home</a>
             <a href="/projects">Projects</a>
-            <a >Blog</a>
+            <a href="/blog">Blog</a>
             <a href="/about">About</a>
 
         </div>

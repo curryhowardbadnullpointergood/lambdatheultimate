@@ -23,7 +23,6 @@ function Blog() {
       <h3> Symbolic Regression</h3>
       <h3> Data Querying Language in Ocaml</h3>
       <h3> Gaia runtime library</h3>
-      <h3> LifeSync</h3>
       <h3> Self-Hosting Server</h3>
       <h3> E-ink alarm</h3>
       <h3> Video Editing on Linux</h3>

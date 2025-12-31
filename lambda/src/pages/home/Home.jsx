@@ -8,17 +8,28 @@ function Home() {
       <h1> Ash </h1>
 
       <div class="article">
-        
-        <p> I am a computer scientist, and love problem solving and finding solutions to real world problems through code. I like to push the limits of what can be done with technology, stretch it in new directions that are innovative. </p> 
 
+          <p> 
+        I am a Computer Scientist who loves taking a hard problem, dissecting it, 
+        understanding it, modeling it mathematically, and eventually coding robust, 
+        automated solutions. I like to push the limits of what can be done with 
+        technology, stretch it in new directions, and have fun.
+    </p> 
 
-      <p> You might be asking why this website looks like something out of the 2000's. The asthetics of this website has been inspired by the early days of wikipedia and "secure.ecs.soton.ac.uk"  which is a notes page that is slowly dying and being phased out. I think that's a real shame and I do not want to see this stye fade away. I personally find it to be direct and useful.</p>
+    <p> 
+        The aesthetics of this website are a tribute to the early days of Wikipedia, 
+        the Semantic Web, and the <code>secure.ecs.soton.ac.uk</code> notes pages. 
+        This style of design is minimalistic and direct, showing you don't need flashy 
+        animations, hard to maintain libraries, or spinning backgrounds to make a 
+        good website. Many old school programming forums still maintain this particular 
+        style. It is less distracting and prioritizes utility.
+    </p>
 
-
-        <p>
-            Check out my <a href="/projects" target="_blank" rel="noopener noreferrer">projects</a> and <a href="/blog" target="_blank" rel="noopener noreferrer">blog</a> ! If you want a challenge try solve my puzzle!
-        </p>
-
+    <p>
+        Check out my <a href="/projects" rel="noopener noreferrer">projects</a> and <a href="/blog" rel="noopener noreferrer">blog</a>. I've explored everything 
+        from toy interpreters and scalable apps to implementations of methods from 
+        academic papers. If you are here from my old website: a new puzzle is coming soon! 
+    </p>
 
       </div>
     </div>
